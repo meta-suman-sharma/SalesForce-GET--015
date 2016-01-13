@@ -25,12 +25,6 @@
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>First_Name__c</fullName>
-        <label>First Name</label>
-        <length>15</length>
-        <type>Text</type>
-    </fields>
-    <fields>
         <fullName>LastName__c</fullName>
         <label>LastName</label>
         <length>15</length>
@@ -87,10 +81,16 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Student Name</label>
+        <label>First Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>DOB</fullName>
+        <active>true</active>
+        <errorConditionFormula>DOB__c  &gt; TODAY()</errorConditionFormula>
+        <errorMessage>Student DOB Should be greater then today</errorMessage>
+    </validationRules>
 </CustomObject>
