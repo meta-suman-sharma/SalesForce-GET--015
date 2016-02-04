@@ -1,0 +1,4 @@
+Hello,
+Your approval Status is  {!Expense__c.Status__c}.
+
+Thanks

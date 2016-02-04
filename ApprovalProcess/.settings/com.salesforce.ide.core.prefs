@@ -1,12 +1,14 @@
 eclipse.preferences.version=1
-endpointApiVersion=24.0
+endpointApiVersion=35.0
 endpointEnvironment=Production/Developer Edition
 endpointServer=www.salesforce.com
 httpsProtocol=true
-ideVersion=24.0
+ideVersion=35.0
 keependpoint=false
-metadataFormatVersion=24.0
+metadataFormatVersion=35.0
 namespacePrefix=
 packageName=unpackaged
+preferToolingDeployment=true
+projectIdentifier=IDE-5078773744934502153
 readTimeout=400
 username=sumansharma@salesforce.com
