@@ -1,0 +1,5 @@
+Dear {!Loan__c.Applicant_Name__c} ,
+ 
+Your Loan Application  Status has been changed {!Loan__c.Loan_status__c}. 
+
+Thanks
