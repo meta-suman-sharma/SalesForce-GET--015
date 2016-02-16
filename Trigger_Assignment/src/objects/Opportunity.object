@@ -15,6 +15,30 @@
         <type>Text</type>
     </fields>
     <fields>
+        <fullName>Custom_Status__c</fullName>
+        <label>Custom Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>New</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Close</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reset</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
         <label>Delivery/Installation Status</label>
         <picklist>
