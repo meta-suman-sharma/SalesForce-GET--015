@@ -1,0 +1,13 @@
+<apex:page controller="GeneratePdfController" renderAs="pdf">
+  <apex:form >
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!studentList}" var="record" border="2">
+           <apex:column value="{!record.id}"/>
+           <apex:column value="{!record.name}"/>
+           <apex:column value="{!record.Class__c}"/>
+           <apex:column value="{!record.DOB__c}"/>
+           <apex:column value="{!record.Sex__c}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>
