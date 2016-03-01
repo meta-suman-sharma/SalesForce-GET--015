@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DeleteStudentController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AddStudent</members>
+        <members>DeleteStudent</members>
+        <members>EditClass</members>
+        <members>JQueryGridDisplay</members>
+        <members>StudentDetail</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Class__c</members>
+        <members>Student__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>15.0</version>
+</Package>

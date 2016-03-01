@@ -1,0 +1,20 @@
+<apex:page standardController="Student__c">
+    <apex:includescript value="/soap/ajax/30.0/connection.js"></apex:includescript>
+    <apex:includescript value="/soap/ajax/30.0/apex.js"></apex:includescript> 
+    <apex:form >
+        <apex:pageBlock >
+            <apex:commandButton style="float:centre;"  value="Click" onclick="alert('Hello World')"/>
+        </apex:pageBlock>
+        
+        <apex:pageBlock >
+            <apex:commandButton value="Student Detail" onclick="popupwindow();"/>
+        </apex:pageBlock>
+    </apex:form>
+     <script type="text/javascript">
+        function popupwindow()
+        {
+            var newWindow = window.open("", "studentDetail", "width=500, height=300"); 
+			newWindow.document.write("<table border=3><tr><th width=300>Student Name</th><th width=300>Class</th></tr><tr><td style='text-align:center;'>{!Student__c.Name}</td><td style='text-align:center;'>{!Student__c.Class__c}</td></tr></table>");
+        }
+    </script>
+</apex:page>
